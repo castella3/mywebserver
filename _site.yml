@@ -1,0 +1,42 @@
+name: "D.kamimura blog"
+navbar: 
+  title: "D.kamimura study and hobby"
+  left:
+    - text: "ホーム"
+      href: index.html
+      
+  right:
+    # - text: "jsのテスト"
+    #   href: js_test.html
+    # - text: "Rでhtml生成"
+    #   href: html_gene.html
+    # - text: "タグチェック用"
+    #   href: id_class_check.html
+    # - text: "gridレイアウト用"
+    #   href: grid_test.html
+    # - text: "cssチェック用"
+    #   href: css_test.html
+    - text: "機械学習"
+      href: deepleaning.html
+    - text: "その他分析"
+      href: other.html
+    - text: "記録と実績"
+      href: jisseki.html
+    - text: "独り言"
+      href: hitorigoto.html
+    - text: "研究記録"
+      href: kiroku.html
+    # - text: "連絡先"
+    #   href: aaa.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    toc: true
+    toc_float:
+      collapse: false
+    df_print: "kable"
+    include: 
+      after_body: footer.html
+    css: site_style.css
+output_dir: "docs"
