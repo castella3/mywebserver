@@ -2,9 +2,6 @@
 title: 上村 大地 (Kamimura Daichi)
 ---
 
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
-knitr::include_graphics("C:/Users/jonso/OneDrive/ドキュメント/hobby/website/images/IMG_5739.jpg")
-```
 
 ## 基本情報
 - 2001年 4月17日生まれ 蛇年の牡羊座
